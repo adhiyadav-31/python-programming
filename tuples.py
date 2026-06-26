@@ -35,3 +35,9 @@ tup2=(34,'world',[1,2,3,4])
 tup2[2][0]=100
 
 print(tup2)
+
+tup3=(20)
+print(type(tup3)) #it is not a tuple it is an integer
+
+tup4=(20,)
+print(type(tup4)) #it is a tuple of single element
