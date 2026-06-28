@@ -26,4 +26,4 @@ def person(name,**kwargs):
     print("name:",name)
     for k,v in kwargs.items():
         print(k,":",v)
-person(age=18,name='adhi')
+person(age=18,name='adhi',loc='hyd')
